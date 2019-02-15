@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo docker run --rm -ti -v ${PWD}:/app/ -p 8050:8050 --hostname localhost --ipc=host mstefferson/dash_bot:latest bash
